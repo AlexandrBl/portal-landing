@@ -6,17 +6,19 @@
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/common.css" />
     <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/modal.css" />
     <link rel="shortcut icon" href="./img/lightning.svg" />
     <title>Portal Network</title>
+    <script defer src="/index.js"></script>
   </head>
   <body>
     <header class="header">
       <div class="nav center-container">
         <img src="./img/Logo.svg" alt="Portal Network" class="header__logo" />
         <a href="#work-hook" class="nav__link link"> Как мы работаем?</a>
-        <a href="#" class="nav__link link">Как начать?</a>
-        <a href="#" class="nav__link link">Почему нам можно доверять?</a>
-        <a href="#" class="nav__link link">Контакты</a>
+        <a href="#crypto-hook" class="nav__link link">Как начать?</a>
+        <a href="#trust-hook" class="nav__link link">Почему нам можно доверять?</a>
+        <a href="#about-hook" class="nav__link link">Контакты</a>
       </div>
     </header>
 
@@ -26,7 +28,9 @@
           <div class="details__info">
             <h1 class="main__title gradient-text">PORTAL NETWORK</h1>
             <p class="main__text info-text">Заряжайся вместе с Portal Network</p>
-            <a href="#"><button class="main__button button">УЗНАТЬ ПОДРОБНЕЕ</button></a>
+            <a href="https://t.me/portal_network_bot/network?startapp=r-439208870" target="_blank"
+              ><button class="main__button button">УЗНАТЬ ПОДРОБНЕЕ</button></a
+            >
           </div>
           <img src="./img/details-img.png" alt="phones" class="details__img" />
         </section>
@@ -34,7 +38,12 @@
           <h2 class="title gradient-text">КАК МЫ РАБОТАЕМ</h2>
           <p class="work__text info-text">
             Мы создаём децентрализованный бизнес по развитию сети зарядных станций, <br />в котором
-            каждый держатель <span class="work__text_hightlight">токена POE</span>
+            каждый держатель <a
+              target="_blank"
+              href="https://app.ston.fi/pools/EQCwsaXza6dEd9ogsg3HHrtukpEmUnM44y15bu0LqHMSj6dQ?farmTab=nfts"
+              class="work__text_hightlight"
+              >токена POE</a
+            >
             становится совладельцем части бизнеса
           </p>
           <div class="work__cards">
@@ -62,23 +71,40 @@
                 15 000 USD в месяц, поэтому в процессе развития проекта стоимость токена будет
                 увеличиваться!
               </p>
-              <a class="report-card__link" href="#"
+              <a
+                class="report-card__link"
+                target="_blank"
+                href="https://t.me/portal_network_bot/network?startapp=r-439208870"
                 ><button class="button get-poe-btn">ПОЛУЧИТЬ POE</button></a
               >
             </div>
             <div class="map-card">
               <img class="map-img" src="./img/map.png" alt="map" />
             </div>
-            <a href="" class="link-card">
+            <a
+              href="https://docs.google.com/document/d/15FvrNxltJ6Gmf1uEB2vFnFeKzLnKnazk2TRG97SU2zE/edit"
+              target="_blank"
+              class="link-card"
+            >
               <button class="button card-button">ТОКЕНОМИКА</button>
             </a>
-            <a href="" class="link-card"> <button class="button card-button">LITEPAPER</button> </a>
-            <a href="" class="link-card">
+            <a
+              href="https://docs.google.com/document/d/1VnaP1Bu7JuWcHR-gpRF4SUCyPNSgs09eSW3ajMEx59k/edit#heading=h.jq2aakalo7ot"
+              target="_blank"
+              class="link-card"
+            >
+              <button class="button card-button">LITEPAPER</button>
+            </a>
+            <a
+              href="https://t.me/portal_network_bot/network?startapp=r-439208870"
+              class="link-card"
+              target="_blank"
+            >
               <button class="button card-button">ИЗУЧИТЬ ПРОЕКТ</button>
             </a>
           </div>
         </section>
-        <section class="crypto">
+        <section class="crypto" id="crypto-hook">
           <h2 class="title gradient-text">
             НАДЕЖНЫЙ И БЕЗОПАСНЫЙ СПОСОБ ВХОДА <br />В МИР ИНВЕСТИЦИЙ И КРИПТОВАЛЮТУ
           </h2>
@@ -134,20 +160,35 @@
                   У нас проходят регулярные активности, конкурсы, а также задания по помощи проекту
                   с вознаграждениями
                 </div>
-                <a href="#">
-                  <button class="horizontal-card__button button">БОТ-НАВИГАТОР</button>
+                <a
+                  href="https://t.me/portal_network_bot/network?startapp=r-439208870"
+                  target="_blank"
+                >
+                  <button
+                    class="horizontal-card__button button card-button horizontal-card__button_white"
+                  >
+                    БОТ-НАВИГАТОР
+                  </button>
                 </a>
               </div>
               <div class="horizontal-card__links">
-                <a href="#" class="horizontal-card__link">
+                <a
+                  href="https://www.youtube.com/@PortalNetworkNews"
+                  target="_blank"
+                  class="horizontal-card__link"
+                >
                   <button class="button card-button horizontal-card__button">YOUTUBE</button>
                 </a>
-                <a href="#" class="horizontal-card__link">
+                <a href="https://t.me/portal_energy" target="_blank" class="horizontal-card__link">
                   <button class="button card-button horizontal-card__button">
                     НОВОСТИ <br />ПРОЕКТА
                   </button>
                 </a>
-                <a href="#" class="horizontal-card__link">
+                <a
+                  href="https://t.me/portal_network_ru"
+                  target="_blank"
+                  class="horizontal-card__link"
+                >
                   <button class="button card-button horizontal-card__button">СООБЩЕСТВО</button>
                 </a>
               </div>
@@ -155,6 +196,233 @@
             <div class="tutorial__card-gorizontal"></div>
           </div>
         </section>
+        <section class="trust" id="trust-hook">
+          <h2 class="title gradient-text">НАМ МОЖНО ДОВЕРЯТЬ</h2>
+          <div class="card-container">
+            <div class="trust__card">
+              <img src="./img/trust 1.png" alt="car" class="trust__img" />
+              <p class="trust__text">
+                <span class="line">ПОЛНАЯ КОМПЕТЕНТНОСТЬ</span>
+                <br />
+                <span class="line">в сфере зарядных станций</span>
+              </p>
+              <a href="https://portalenergy.tech/solutions/my-podryadchik" target="_blank">
+                <button
+                  class="horizontal-card__button button card-button horizontal-card__button_white"
+                >
+                  НАША КОМПАНИЯ
+                </button>
+              </a>
+            </div>
+
+            <div class="trust__card">
+              <img src="./img/trust 2.png" alt="car" class="trust__img" />
+              <p class="trust__text">
+                <span class="line">ОТКРЫТОСТЬ</span>
+                <br />
+                <span class="line">И ОБЩЕНИЕ</span>
+              </p>
+              <a href="https://t.me/portal_network_ru" target="_blank">
+                <button
+                  class="horizontal-card__button button card-button horizontal-card__button_white"
+                >
+                  ЗАДАТЬ ВОПРОС
+                </button>
+              </a>
+            </div>
+
+            <div class="trust__card">
+              <img src="./img/trust 3.png" alt="car" class="trust__img" />
+              <p class="trust__text">
+                <span class="line">ПРОЗРАЧНАЯ</span>
+                <br />
+                <span class="line">ЭКОНОМИКА</span>
+              </p>
+              <a
+                href="https://docs.google.com/document/d/15FvrNxltJ6Gmf1uEB2vFnFeKzLnKnazk2TRG97SU2zE/edit"
+                target="_blank"
+              >
+                <button
+                  class="horizontal-card__button button card-button horizontal-card__button_white"
+                >
+                  ПОДРОБНЕЕ
+                </button>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="cooperation">
+          <h2 class="title gradient-text cooperation__title">
+            Мы открыты к сотрудничеству Напишите Ваше предложение
+          </h2>
+
+          <div class="form-container">
+            <form action="#" method="post">
+              <input
+                class="input"
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Ваше имя"
+              />
+              <input
+                class="input"
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Ваша электронная почта"
+              />
+              <textarea
+                class="input"
+                id="message"
+                name="message"
+                rows="4"
+                required
+                placeholder="Ваше сообщение"
+              ></textarea>
+
+              <div class="form-group">
+                <label class="consent-label">
+                  <input type="checkbox" id="consent" name="consent" required />
+                  <span class="custom-checkbox"></span>
+                  <button type="button" class="agree-btn">Даю согласие на</button> обработку
+                  персональных данных
+                </label>
+              </div>
+
+              <div class="form-group">
+                <button type="submit" class="button form-button">Отправить</button>
+              </div>
+            </form>
+          </div>
+          <section class="about" id="about-hook">
+            <div class="contacts">
+              <p class="contacts__text">ИНН 7820070544</p>
+              <p class="contacts__text">Санкт-Петербург, Выборгская наберажная 61. офис 515а</p>
+              <p class="contacts__text">portalnetworkpoe@gmail.com</p>
+              <p class="contacts__text">© Portal Network — сообщество заинтересованных людей</p>
+            </div>
+            <div class="media">
+              <a href="https://t.me/portal_energy" target="_blank" class="media__link button"
+                ><img src="./img/tg.svg" alt="telegram" />Telegram</a
+              >
+              <a
+                href="https://www.youtube.com/@PortalNetworkNews"
+                target="_blank"
+                class="media__link button"
+                ><img src="./img/yt.svg" alt="youtube" />Youtube</a
+              >
+            </div>
+          </section>
+        </section>
+      </div>
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="modal-close-btn">×</button>
+          <h4 class="modal-title"><p>Политика конфиденциальности</p></h4>
+        </div>
+        <div class="modal-body">
+          <p class="modal-strong">Согласие на обработку персональных данных для сайта</p>
+          <p class="modal-text">
+            Оставляя на сайте, размещенном по веб-адресу:
+            <a href="https://portalnetwork.ru/" target="_blank">https://portalnetwork.ru/</a> (далее
+            – Сайт), принадлежащем © Portal Network , ИНН 7820070544, оператор персональных данных
+            рег.№ 1 (далее - Администрация Сайта), любые из Ваших данных (которые отнесены к
+            категории персональных в соответствии с ФЗ «О персональных данных» от 27.07.2006
+            №152-ФЗ), путем заполнения полей любых форм на Сайте, Вы автоматически присоединяетесь к
+            настоящему Соглашению, приобретаете статус пользователя Сайта (далее-Пользователь Сайта)
+            и соглашаетесь со всеми без исключения его условиями.
+          </p>
+          <p class="modal-text">Пользователь Сайта:</p>
+          <ol class="modal-list">
+            <li class="list-item">
+              Подтверждает, что все указанные им в формах регистрации на Сайте данные принадлежат
+              лично ему, соответствуют действительности, не искажены.
+            </li>
+            <li class="list-item">
+              Подтверждает и признает, что им внимательно в полном объеме прочитано настоящее
+              Соглашение и условия обработки его персональных данных. Текст Соглашения и условия
+              обработки персональных данных ему понятны и он с ними согласен;
+            </li>
+            <li class="list-item">
+              Дает согласие на обработку Администрацией Сайта предоставляемых в составе информации
+              персональных данных в целях заключения между ним и Сайтом настоящего Соглашения, а
+              также его последующего исполнения;
+            </li>
+            <li class="list-item">
+              Дает согласие на обработку Администрацией Сайта предоставляемых в составе информации
+              персональных данных в целях заключения между ним и Сайтом настоящего Соглашения, а
+              также его последующего исполнения;
+            </li>
+            <li class="list-item">
+              Дает согласие на обработку Администрацией Сайта предоставляемых в составе информации
+              персональных данных в целях заключения между ним и Сайтом настоящего Соглашения, а
+              также его последующего исполнения;
+            </li>
+          </ol>
+          <p class="modal-text">
+            Согласие Пользователя Сайта на обработку персональных данных является конкретным,
+            информированным и сознательным.
+          </p>
+          <p class="modal-text">
+            Настоящее согласие Пользователя Сайта признается исполненным в простой письменной форме.
+          </p>
+          <p class="modal-text">
+            Пользователь Сайта предоставляет Администрации Сайта право осуществлять следующие
+            действия (операции) с персональными данными:
+          </p>
+          <ol class="modal-list">
+            <li class="list-item">сбор и накопление;</li>
+            <li class="list-item">
+              хранение в течение установленных нормативными документами сроков хранения отчетности,
+              но не менее трех лет, с момента даты прекращения пользования услуг Пользователем
+              Сайта;
+            </li>
+            <li class="list-item">уточнение (обновление, изменение);</li>
+            <li class="list-item">использование;</li>
+            <li class="list-item">уничтожение;</li>
+            <li class="list-item">обезличивание;</li>
+            <li class="list-item">
+              передача по требованию суда, в том числе, третьим лицам, с соблюдением мер,
+              обеспечивающих защиту персональных данных от несанкционированного доступа.
+            </li>
+          </ol>
+          <p class="modal-text">
+            Указанное согласие действует бессрочно с момента предоставления данных и может быть
+            отозвано Пользователем Сайта путем подачи заявления Администрации Сайта с указанием
+            данных, определенных ст. 14 Федерального закона от 27.07.2006 N 152-ФЗ «О персональных
+            данных» (ред. от 22.02.2017г.).
+          </p>
+          <p class="modal-text">
+            Указанное согласие действует бессрочно с момента предоставления данных и может быть
+            отозвано Пользователем Сайта путем подачи заявления Администрации Сайта с указанием
+            данных, определенных ст. 14 Федерального закона от 27.07.2006 N 152-ФЗ «О персональных
+            данных» (ред. от 22.02.2017г.).
+          </p>
+          <p class="modal-text">
+            Администрация Сайта не несет ответственности за использование (как правомерное, так и
+            неправомерное) третьими лицами Информации, размещенной Пользователем Сайта на Сайте,
+            включая её воспроизведение и распространение, осуществленные всеми возможными способами.
+          </p>
+          <p class="modal-text">
+            Администрация Сайта не несет ответственности за использование (как правомерное, так и
+            неправомерное) третьими лицами Информации, размещенной Пользователем Сайта на Сайте,
+            включая её воспроизведение и распространение, осуществленные всеми возможными способами.
+          </p>
+          <p class="modal-text">
+            При внесении изменений в актуальной редакции указывается дата последнего обновления.
+            Новая редакция Соглашения вступает в силу с момента ее размещения, если иное не
+            предусмотрено новой редакцией Соглашения.
+          </p>
+          <p class="modal-text">
+            К настоящему Соглашению и отношениям между Пользователем Сайта и Администрацией Сайта,
+            возникающим в связи с применением Соглашения, подлежит применению действующее
+            законодательство Российской Федерации.
+          </p>
+        </div>
       </div>
     </main>
   </body>
