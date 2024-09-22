@@ -102,6 +102,10 @@ a:active {
   width: 20%;
 }
 
+.header__menu {
+  display: none;
+}
+
 .mobile-nav {
   display: none;
 }
