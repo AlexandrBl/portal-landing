@@ -1,0 +1,371 @@
+@media (max-width: 1156px) {
+  html {
+    font-size: 1.1vw;
+  }
+}
+
+@media (max-width: 1047px) {
+  html {
+    font-size: 1.15vw;
+  }
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 1.25vw;
+  }
+}
+
+@media (max-width: 935px) {
+  html {
+    font-size: 1.35vw;
+  }
+  .center-container {
+    width: 70rem;
+  }
+  .tutorial__title {
+    font-size: 1.4rem;
+  }
+  .card__text {
+    font-size: 1.2rem;
+  }
+  .trust__card {
+    width: 22rem;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 1.45vw;
+  }
+  .center-container {
+    width: 65rem;
+  }
+  .card__text {
+    font-size: 1.1rem;
+  }
+  .trust__card {
+    width: 21rem;
+  }
+  .details__img {
+    width: 55rem;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 3vw;
+  }
+  .center-container {
+    width: 90%;
+  }
+  .title {
+    font-size: 4rem;
+  }
+  .nav {
+    margin-top: 3.5rem;
+    height: auto;
+  }
+  .nav__link {
+    display: none;
+  }
+  .header__logo {
+    width: 17rem;
+  }
+  .header__menu {
+    background: var(--blue-color);
+    border: none;
+    padding: 1.35rem 1.2rem 1rem 1.2rem;
+    border-radius: 1rem;
+  }
+  .mobile-nav {
+    z-index: 100;
+    position: fixed;
+    background-color: var(--blue-color);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .mobile__logo {
+    width: 12rem;
+  }
+  .mobile-nav__conteiner {
+    padding: 5rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .nav__link_mobile {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  .details {
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    margin: 2rem 0 0 0;
+  }
+  .details__info {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .details__button {
+    display: block;
+    align-self: center;
+    margin-top: 24rem;
+  }
+  .main__button {
+    position: relative;
+    font-size: 1.3rem;
+    padding: 2rem 7rem;
+    border-radius: 3rem;
+    z-index: 1;
+  }
+  .main__title {
+    width: 75%;
+  }
+  .main__text {
+    width: 50%;
+  }
+  .details__img {
+    width: 55rem;
+    top: 8rem;
+    right: -8rem;
+    z-index: 0;
+  }
+  .info-text {
+    font-size: 1.3rem;
+  }
+  .work__cards {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .business-card {
+    width: calc(97.9%);
+    transform: translate(-5%, 0);
+    border-radius: 0;
+  }
+  .business-card__text-block {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .business-card__text {
+    width: 70%;
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+  }
+  .business-card__img {
+    display: none;
+  }
+  .business-card__img_vertical {
+    display: block;
+    position: absolute;
+    right: 2rem;
+  }
+  .report-card {
+    z-index: 1;
+    width: calc(97.9%);
+    transform: translate(-5%, 0);
+    border-radius: 0;
+    margin: 0;
+  }
+  .report-card__title {
+    line-height: 1.3rem;
+  }
+  .get-poe-btn {
+    padding: 1.2rem 4rem;
+    font-size: 1.2rem;
+  }
+  .map-card {
+    width: calc(100vw / 2.035);
+    transform: translate(93.5%, -35%);
+    border-radius: 2rem 0 0 2rem;
+  }
+  .link-card {
+    width: 45%;
+    height: 4rem;
+    position: absolute;
+    top: 61%;
+  }
+  .link-card:nth-of-type(2) {
+    top: 68%;
+  }
+  .link-card:nth-of-type(3) {
+    top: 75%;
+  }
+  .card-button {
+    background: var(--blue-color);
+  }
+  .crypto {
+    margin-top: -12rem;
+  }
+  .crypto__title {
+    font-size: 3.2rem;
+  }
+  .vertical-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tutorial__card {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+  }
+  .tutorial__title {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .tutorial__card-item {
+    width: 27rem;
+  }
+  .horizontal-card {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+  }
+  .horizontal-card__info {
+    align-items: center;
+  }
+  .horizontal-card__title {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .horizontal-card__text {
+    /* width: 100%; */
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .horizontal-card__links {
+    width: 27rem;
+    margin-top: 5.5rem;
+    height: auto;
+  }
+  .horizontal-card__button {
+    height: 5rem;
+    background-color: var(--blue-color);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  }
+  .horizontal-card__link:last-of-type > .card-button {
+    margin: 0;
+  }
+  .horizontal-card__button_white {
+    background-color: var(--light-text-color);
+    width: 27rem;
+  }
+
+  .card-container {
+    overflow-x: scroll;
+  }
+  .trust {
+    margin-top: 2rem;
+  }
+  .trust > .title {
+    width: 90%;
+  }
+  .trust__card {
+    padding: 0;
+    flex-shrink: 0;
+    width: 20rem;
+    margin-right: 2rem;
+  }
+  .trust__card > a {
+    margin-bottom: 0.5rem;
+    width: 90%;
+  }
+  .trust__img {
+    height: 100%;
+    object-fit: contain;
+    top: auto;
+    left: auto;
+  }
+  .trust__button {
+    padding: 0;
+    width: 100%;
+    height: 3rem;
+    border-radius: 2rem;
+  }
+  .bigArrow {
+    margin-top: 2rem;
+    display: block;
+  }
+  .cooperation {
+    margin-top: 2rem;
+  }
+  .cooperation > .title {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+  .form-container {
+    width: 101.2%;
+    border-radius: 0;
+    transform: translate(-5%, 0);
+    padding: 2rem 1.5rem 2rem 1.5rem;
+  }
+  .input {
+    border-radius: 1rem;
+  }
+  textarea {
+    border-radius: 1rem !important;
+  }
+  .consent-label {
+    font-size: 0.9rem;
+  }
+  .agree-btn {
+    font-size: 0.9rem;
+    padding: 0 0.3rem 0 0.5rem;
+  }
+  .custom-checkbox {
+    margin: 0 0 0 1rem;
+  }
+  .about {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .media {
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 0 2rem 0;
+  }
+  .media > a {
+    margin: 0;
+    background: var(--blue-color);
+  }
+  .contacts > * {
+    text-align: center;
+  }
+  .modal-content {
+    font-size: 1rem;
+    width: 70%;
+  }
+  .modal-title {
+    font-size: 1rem;
+  }
+  .modal-header {
+    margin-bottom: 1em;
+    width: 110%;
+  }
+  .modal-list {
+    margin-left: 2rem;
+    width: 90%;
+  }
+  .modal-btn {
+    width: 100%;
+    text-align: center;
+    margin: 0%;
+    background: var(--light-text-color);
+    color: var(--dark-text-color);
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    transition: transform 0.2s;
+    font-size: 2rem;
+  }
+}

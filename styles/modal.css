@@ -1,4 +1,31 @@
+@keyframes openAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes closeAnim {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.open {
+  animation: openAnim 0.2s ease-in;
+}
+
+.close {
+  animation: closeAnim 0.2s ease-in;
+}
+
 .modal-content {
+  overflow-x: hidden;
   display: none;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -75,4 +102,17 @@
   margin-left: 3rem;
   width: 95%;
   list-style-type: demical;
+}
+
+.modal-btn {
+  margin: 2rem 25% 0 25%;
+  background: var(--light-text-color);
+  color: var(--dark-text-color);
+  padding: 1rem 4rem;
+  border-radius: 3rem;
+  transition: transform 0.2s;
+}
+
+.modal-btn:active {
+  transform: scale(0.97);
 }

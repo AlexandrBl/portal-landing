@@ -7,11 +7,21 @@
     <link rel="stylesheet" href="./styles/common.css" />
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet" href="./styles/modal.css" />
+    <link rel="stylesheet" href="./styles/adaptive.css" />
     <link rel="shortcut icon" href="./img/lightning.svg" />
     <title>Portal Network</title>
     <script defer src="/index.js"></script>
   </head>
   <body>
+    <div class="mobile-nav close">
+      <div class="center-container mobile-nav__conteiner">
+        <img src="./img/mobile-logo.png" alt="Portal Network" class="header__logo mobile__logo" />
+        <a href="#work-hook" class="nav__link_mobile link"> Как мы работаем?</a>
+        <a href="#crypto-hook" class="nav__link_mobile link">Как начать?</a>
+        <a href="#trust-hook" class="nav__link_mobile link">Почему нам можно доверять?</a>
+        <a href="#about-hook" class="nav__link_mobile link">Контакты</a>
+      </div>
+    </div>
     <header class="header">
       <div class="nav center-container">
         <img src="./img/Logo.svg" alt="Portal Network" class="header__logo" />
@@ -19,21 +29,29 @@
         <a href="#crypto-hook" class="nav__link link">Как начать?</a>
         <a href="#trust-hook" class="nav__link link">Почему нам можно доверять?</a>
         <a href="#about-hook" class="nav__link link">Контакты</a>
+        <button class="header__menu button">
+          <img src="./img//burger.svg" alt="menu" class="burger" />
+        </button>
       </div>
     </header>
 
     <main class="main">
-      <div class="center-container">
+      <div class="center-container center-container-without-overflow">
         <section class="details">
           <div class="details__info">
             <h1 class="main__title gradient-text">PORTAL NETWORK</h1>
             <p class="main__text info-text">Заряжайся вместе с Portal Network</p>
-            <a href="https://t.me/portal_network_bot/network?startapp=r-439208870" target="_blank"
+            <a
+              class="details__button"
+              href="https://t.me/portal_network_bot/network?startapp=r-439208870"
+              target="_blank"
               ><button class="main__button button">УЗНАТЬ ПОДРОБНЕЕ</button></a
             >
           </div>
           <img src="./img/details-img.png" alt="phones" class="details__img" />
         </section>
+      </div>
+      <div class="center-container">
         <section class="work" id="work-hook">
           <h2 class="title gradient-text">КАК МЫ РАБОТАЕМ</h2>
           <p class="work__text info-text">
@@ -60,6 +78,11 @@
                 </div>
               </div>
               <img src="./img/imgs-chain.png" alt="pic" class="business-card__img" />
+              <img
+                src="./img/imgs-chain-vertical.png"
+                alt="pic"
+                class="business-card__img_vertical"
+              />
             </div>
             <div class="report-card">
               <img src="./img/hand.png" alt="hand" class="report-card__img" />
@@ -105,7 +128,7 @@
           </div>
         </section>
         <section class="crypto" id="crypto-hook">
-          <h2 class="title gradient-text">
+          <h2 class="title crypto__title gradient-text">
             НАДЕЖНЫЙ И БЕЗОПАСНЫЙ СПОСОБ ВХОДА <br />В МИР ИНВЕСТИЦИЙ И КРИПТОВАЛЮТУ
           </h2>
           <div class="tutorial">
@@ -196,8 +219,11 @@
             <div class="tutorial__card-gorizontal"></div>
           </div>
         </section>
+      </div>
+      <div class="center-container center-container-without-overflow">
         <section class="trust" id="trust-hook">
           <h2 class="title gradient-text">НАМ МОЖНО ДОВЕРЯТЬ</h2>
+          <img src="./img/big-arrow.svg" alt="big-arrow" class="bigArrow" />
           <div class="card-container">
             <div class="trust__card">
               <img src="./img/trust 1.png" alt="car" class="trust__img" />
@@ -208,7 +234,7 @@
               </p>
               <a href="https://portalenergy.tech/solutions/my-podryadchik" target="_blank">
                 <button
-                  class="horizontal-card__button button card-button horizontal-card__button_white"
+                  class="trust__button horizontal-card__button button card-button horizontal-card__button_white"
                 >
                   НАША КОМПАНИЯ
                 </button>
@@ -224,7 +250,7 @@
               </p>
               <a href="https://t.me/portal_network_ru" target="_blank">
                 <button
-                  class="horizontal-card__button button card-button horizontal-card__button_white"
+                  class="trust__button horizontal-card__button button card-button horizontal-card__button_white"
                 >
                   ЗАДАТЬ ВОПРОС
                 </button>
@@ -243,7 +269,7 @@
                 target="_blank"
               >
                 <button
-                  class="horizontal-card__button button card-button horizontal-card__button_white"
+                  class="trust__button horizontal-card__button button card-button horizontal-card__button_white"
                 >
                   ПОДРОБНЕЕ
                 </button>
@@ -251,6 +277,8 @@
             </div>
           </div>
         </section>
+      </div>
+      <div class="center-container">
         <section class="cooperation">
           <h2 class="title gradient-text cooperation__title">
             Мы открыты к сотрудничеству Напишите Ваше предложение
@@ -319,7 +347,7 @@
         </section>
       </div>
 
-      <div class="modal-content">
+      <div class="modal-content close">
         <div class="modal-header">
           <button class="modal-close-btn">×</button>
           <h4 class="modal-title"><p>Политика конфиденциальности</p></h4>
@@ -422,6 +450,7 @@
             возникающим в связи с применением Соглашения, подлежит применению действующее
             законодательство Российской Федерации.
           </p>
+          <button class="modal-close-btn modal-btn">ПОНЯТНО</button>
         </div>
       </div>
     </main>
