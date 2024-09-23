@@ -309,6 +309,13 @@ a:active {
   height: 4.55rem;
 }
 
+.card-link {
+  width: 100%;
+  color: var(--light-text-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .card-button {
   background: var(--main-gradient);
   width: 100%;
