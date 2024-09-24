@@ -324,10 +324,10 @@
   }
   .agree-btn {
     font-size: 0.9rem;
-    padding: 0 0.3rem 0 0.5rem;
+    padding: 0 0.3rem 0 0;
   }
   .custom-checkbox {
-    margin: 0 0 0 1rem;
+    margin: 0 0.7rem 0 1rem;
   }
   .about {
     flex-direction: column;

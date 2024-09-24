@@ -54,7 +54,7 @@ a:active {
   bottom: -0.5rem;
   left: 2.7rem;
   font-size: 1.3rem;
-  margin-left:0.9rem;
+  margin-left: 0.9rem;
 }
 
 .link {
@@ -597,7 +597,7 @@ textarea::-webkit-scrollbar-thumb:hover {
   border-radius: 0.2rem;
   cursor: pointer;
   background: #dcf6ff;
-  margin: 0 0.5rem 0 1rem;
+  margin: 0 1rem 0 1rem;
 }
 
 .custom-checkbox::after {
@@ -668,6 +668,7 @@ input[type='checkbox']:checked + .custom-checkbox::after {
   font-size: 1rem;
   color: #00759c;
   cursor: pointer;
+  padding: 0 0.4rem 0 0;
 }
 
 .agree-btn:hover {
