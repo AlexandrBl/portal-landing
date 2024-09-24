@@ -48,9 +48,13 @@ a:active {
 }
 
 .send-info {
+  color: var(--dark-text-color);
+  font-weight: 500;
   position: absolute;
-  bottom: -0.4rem;
+  bottom: -0.5rem;
   left: 2.7rem;
+  font-size: 1.3rem;
+  margin-left:0.9rem;
 }
 
 .link {
