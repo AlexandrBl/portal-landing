@@ -203,6 +203,9 @@
   .card-button {
     background: var(--blue-color);
   }
+  #news-br {
+    display: none;
+  }
   .crypto {
     margin-top: -12rem;
   }
@@ -372,7 +375,7 @@
     font-size: 2rem;
   }
   .send-info {
-    margin-left:-0.15rem;
+    margin-left: -0.15rem;
     font-size: 1.2em;
   }
 }
