@@ -378,4 +378,10 @@
     margin-left: -0.15rem;
     font-size: 1.2em;
   }
+  .logo__btn {
+    width: fit-content;
+    background: none;
+    border: none;
+    outline: none;
+  }
 }

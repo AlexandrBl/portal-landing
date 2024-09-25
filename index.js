@@ -44,6 +44,7 @@ modal.addEventListener('click', (event) => {
 const openBurgerBtn = document.querySelector('.header__menu')
 const burger = document.querySelector('.mobile-nav')
 const burgerLinks = document.querySelectorAll('.nav__link_mobile')
+const logoBtn = document.querySelector('.logo__btn')
 
 openBurgerBtn.addEventListener('click', (event) => {
   event.stopPropagation()
@@ -60,6 +61,15 @@ burgerLinks.forEach((burgerLink) => {
       burger.style.display = 'none'
     }, 200)
   })
+})
+
+logoBtn.addEventListener('click', (e) => {
+  e.stopPropagation()
+
+  burger.classList.replace('open', 'close')
+  setTimeout(() => {
+    burger.style.display = 'none'
+  }, 200)
 })
 
 //Email
